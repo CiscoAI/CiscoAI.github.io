@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <style>
+    body {
+      font-family: CiscoSans;
+      margin: 0;
+    }
+
+    a {
+      color: #FF6464;
+      text-decoration: none;
+    }
+  
+    a:hover {
+      color: #40BCFF;
+    }
+
+    .content {
+      font-size: 18px;
+      margin-left: auto;
+      margin-right: auto;
+      padding-top: 36px;
+      text-align: justify;
+      width: 60%;
+    }
+  
+    .content-header {
+      font-size: 18px;
+      margin-left: auto;
+      margin-right: auto;
+      width: 60%;
+    }
+
+    .description {
+      color: #FFF;
+    }
+
+    .flex-container {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+
+    @font-face {
+      font-family: "CiscoSans";
+      src: url("./CiscoSans-Regular.woff") format("woff"),
+    }
+
+    .footer {
+      background: #101322;
+      color: #FFF;
+      display: flex;
+      justify-content: space-around;
+      margin-top: 64px;
+      min-height: 64px;
+      padding: 24px 0;
+    }
+
+    h1 {
+      color: #FFF;
+      font-size: 36px;
+    }
+
+    .section-introduction {
+      background-color: #111422;
+      display: flex;
+      flex-direction: column;
+      height: 250px;
+      justify-content: center;
+    }
+    
+    @media screen and (min-width : 320px) {
+      .content {
+        width: 80%;
+      }
+      .flex-item-intro {
+        width: 100%;
+      }
+    }
+
+    @media screen and (min-width: 680px) {
+      .content {
+        width: 60%;
+      }
+      .flex-item-intro {
+        width: 48%;
+      }
+    }
+  </style>
+  <head>
+    <title>Cisco Kubeflow Starter Pack</title>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-161751488-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-161751488-1');
+    </script>
+
+  </head>
+  <body>
+    <div class="section-introduction">
+      <div class="content-header">
+        <h1>Cisco Kubeflow Starter Pack</h1>
+        <p class='description'>
+          Machine Learning Platform Fast and Easy on Your On-premise Kubernetes cluster
+        </p>
+        <a target="_blank" href="https://github.com/CiscoAI/cisco-kubeflow-starter-pack">► Get started with Cisco Kubeflow Starter Pack now</a>
+      </div>
+
+    </div>
+    <div class="content">
+      <p>
+        Cisco Kubeflow Starter Pack will you get access to the best industry approved tools seamlessly integrated together.
+        It automates several processes that are critical to Data Scientists, ML Engineers and IT Operators.
+        Easing the transition of proof-of-concept data science projects to production-grade deployments.
+      </p>
+      <div class="flex-container">
+        <div class="flex-item-intro">
+          <h3>
+            For Data Scientists
+          </h3>
+          <p>
+            <div>►Multi-user shared and isolated Jupyter Notebooks</div>
+            <div>►Single and distributed jobs with popular AI/ML frameworks: Tensorflow, Pytorch, XGBoost and others</div>
+            <div>►Automated docker builds for your model to easy train locally and on the server with Fairing</div>
+            <div>►Consistent and reproducible experiments with Kubeflow UI</div>
+            <div>►High quality models with hyper parameter tuner Katib</div>
+
+          </p>
+        </div>
+        <div class="flex-item-intro">
+          
+          <h3>For Machine Learning Engineers</h3>
+          <p>
+            <div>►Easy management of complex machine learning system at scale with Pipelines</div>
+            <div>►Role-based access and resources with Profile controller</div>
+            <div>►Consistent and efficient operations with Kubernetes and optimized infrastructure usage</div>
+            <div>►Automated scale-up, scale-down and models deployments with KFServing</div>
+          </p>
+        </div>
+      </div>
+      <center>
+        <h2>
+          <a target="_blank" href="https://github.com/CiscoAI/cisco-kubeflow-starter-pack">Install Cisco Kubeflow Starter Pack Now</a>
+        </h2>
+      </center>
+      <br>
+      <div>
+        <h2>Why Cisco Kubeflow Starter Pack</h2>
+        <p>
+          <p>
+            The Cisco Kubeflow Starter Pack is a set of end-to-end applications that help Cisco customers to manage a portable,
+            distributed, and scalable machine learning system on on-premise Kubernetes clusters running on Cisco servers.
+            Our mission is to help each of our customers to reduce the friction in managing ML infrastructure by eliminating
+            the complex steps in build-train-deploy machine learning workflow.
+          </p>
+          <p>
+            We have been <a target="_blank" href="http://devstats.kubeflow.org/d/5/companies-summary?orgId=1">intensively developing and leading</a> Kubeflow on-premise efforts in the community,
+            and we understand how non-trivial on-premise deployments can get.
+            Therefore, we developed a Cisco Kubeflow Starter Pack to help Cisco customers to run Kubeflow easily
+            on Cisco infrastructure namely the UCS and HyperFlex Kubernetes cluster.
+          </p>
+        </p>
+      </div>
+    </div>
+    <div>
+    </div>
+    <footer class="footer">
+        <div class="flex-item">
+          <b>Developers</b>
+          <br>
+          <br>
+          <a target="_blank" href="https://developer.cisco.com/kubeflow/">Cisco DevNet</a>
+          <br>
+          <a target="_blank" href="https://www.kubeflow.org/">Kubeflow</a>
+        </div> 
+        <div class="flex-item">
+          <b>More information</b>
+          <br>
+          <br>
+          <a target="_blank" href="https://github.com/CiscoAI/cisco-kubeflow-starter-pack#faq">FAQ</a>
+          <br>
+          <a target="_blank" href="https://blogs.cisco.com/cloud/consistent-ai-the-journey-together">Blog</a>
+        </div> 
+        <div class="flex-item">
+          <b>Help & Support</b>
+          <br>
+          <br>
+          <a target="_blank" href="https://github.com/CiscoAI/cisco-kubeflow-starter-pack/issues/new">GitHub Issue</a>
+          <br>
+          <a href="mailto:cisco-kubflow-support@cisco.com">Email</a>
+        </div> 
+    </footer>
+  </body>
+</html>
