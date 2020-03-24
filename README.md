@@ -1,2 +1,2 @@
-# ciscoai.github.com
+# ciscoai.github.io
 Kubeflow @ Cisco Page
